@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/NFC2T_backend"
+]
+resolver = "2"
