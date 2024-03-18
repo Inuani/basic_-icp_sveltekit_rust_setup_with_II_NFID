@@ -1,16 +1,16 @@
 {
   "canisters": {
-    "NFC2T_backend": {
-      "candid": "src/NFC2T_backend/NFC2T_backend.did",
+    "backend": {
+      "candid": "src/backend/backend.did",
       "declarations": {
         "node_compatibility": true
       },
-      "package": "NFC2T_backend",
+      "package": "backend",
       "type": "rust"
     },
-    "NFC2T_frontend": {
+    "frontend": {
       "dependencies": [
-        "NFC2T_backend"
+        "backend"
       ],
       "source": [
         "src/frontend/dist"
